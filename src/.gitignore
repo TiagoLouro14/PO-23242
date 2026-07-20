@@ -1,0 +1,14 @@
+# Ignore compiled class files
+*.class
+
+# Ignore package files (except those in the lib directory if you create one)
+*.jar
+!lib/*.jar
+
+# Ignore OS generated files
+.DS_Store
+
+# Ignore IDE configuration folders
+.idea/
+*.iml
+.vscode/
